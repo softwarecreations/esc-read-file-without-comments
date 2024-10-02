@@ -1,0 +1,26 @@
+{
+  "name": "esc-read-file-without-comments",
+  "version": "0.1.0",
+  "description": "Read file without comments (lines starting with #)",
+  "main": "main.mjs",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarecreations/esc-read-file-without-comments.git"
+  },
+  "keywords": [
+    "minimal-dependencies",
+    "simple"
+  ],
+  "author": "softwarecreations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softwarecreations/esc-read-file-without-comments/issues"
+  },
+  "homepage": "https://github.com/softwarecreations/esc-read-file-without-comments#readme"
+}
