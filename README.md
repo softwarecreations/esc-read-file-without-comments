@@ -1,7 +1,17 @@
 # esc-read-file-without-comments
 Read file without comments (lines starting with #)
 
+## Installation
+`npm install esc-read-file-without-comments`
+
+## Use
+```JavaScript
+import readFileWithoutComments from 'esc-read-file-without-comments';
+const hosts = readFileWithoutComments('/etc/hosts');
+```
+
 ## Project goals
+* Lightweight: 168 bytes of code
 * No dependencies
 * No nonsense
 * Reliable, no radical changes will ever happen.
@@ -9,23 +19,7 @@ Read file without comments (lines starting with #)
 
 If I have ideas for something different, I'll make a new package rather than make breaking changes.
 
-## Inspired by
-
-
-## Installation
-
-1. `npm install esc-read-file-without-comments`
-
-
-## Use
-```JavaScript
-import foo from 'esc-read-file-without-comments';
-
-```
-
 ## Notes
-
-
 Have fun!
 
 ### Say thanks
